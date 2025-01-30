@@ -1,0 +1,132 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(191, 180, 174);
+}
+
+h3{
+    font-size: 40px;
+    color: rgb(191, 180, 174);
+}
+
+
+button {
+    width: 10rem;
+    height: 2.5rem;
+    margin: 0.75rem;
+    border-radius: 10px;
+    background-color: rgba(212, 187, 221,0.9);
+    outline: 0;
+    font-weight: bold;
+}
+
+#board {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    background-color:rgba(228, 183, 160,0.4);
+    backdrop-filter: blur(15px);
+    border: 8px solid #C38370;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tile{
+    user-select: none;
+    border-radius: 10px;
+    background-color:rgba(239, 231, 211,0.3);
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.x2 {
+    background-color: #eee4da;
+    color:#776e65;
+}
+.x4 {
+    background-color: #ede0c8;;
+    color:#776e65;
+}
+.x8 {
+    background-color: #f2b179;
+    color:#f9f6f2;
+}
+.x16 {
+    background-color: #f59563;
+    color:#f9f6f2;
+}
+.x32 {
+    background-color: #f67c5f;
+    color:#776e65;
+}
+.x64 {
+    background-color: #f65e3b;
+    color:#776e65;
+}
+.x128 {
+    background-color: #edcf72;
+    color:#776e65;
+}
+.x256 {
+    background-color: #edcc61;
+    color:#776e65;
+}
+.x512 {
+    background-color: #edc850;
+    color:#776e65;
+}
+.x1024 {
+    background-color: #edc53f;
+    color:#776e65;
+}
+.x2048{
+    background-color: #edc22e;
+    color:#776e65;
+}
+.x4096{
+    background-color: #f65e3b;
+    color: #776e65;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+dialog {
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    outline: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(220, 186, 169,0.7);
+}
+
+#restartButton{
+    background-color:rgba(226, 128, 138,0.5);
+    width: 80px;
+    height: 40px;
+    border-radius: 20%;
+    outline: 0;
+}
+
+p {
+    font-size: 30px;
+}
+
+button {
+    font-size: 17px;
+}
